@@ -1,13 +1,13 @@
 // Crea un array vuoto e chiedi all'utente un numero da inserire nell'array.Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
 
-// creao array vuoto
+// creo array vuoto
 const numberList = [];
 
 let somma = 0;
 
 // finchè la somma è minore di 50
 while (somma < 50) {
-    // chiedi all-utente un numero
+    // chiedo all'utente un numero
     let userNumber = parseInt(prompt('Inserisci un numero'));
     somma += userNumber;
     numberList.push(userNumber);
