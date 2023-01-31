@@ -8,7 +8,7 @@ let somma = 0;
 // finchè la somma è minore di 50
 while (somma < 50) {
     // chiedo all'utente un numero
-    let userNumber = parseInt(prompt('Inserisci un numero'));
+    const userNumber = parseInt(prompt('Inserisci un numero'));
     somma += userNumber;
     numberList.push(userNumber);
 
@@ -20,3 +20,14 @@ while (somma < 50) {
 
 console.log(somma);
 console.log(numberList);
+
+// Se avessimo voluto farlo con il do while
+
+// do {
+//     const userNumber = parseInt(prompt('Inserisci un numero'));
+//     somma += userNumber;
+//     numberList.push(userNumber);
+// } while (somma < 50)
+
+// console.log(somma);
+// console.log(numberList);
